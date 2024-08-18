@@ -386,6 +386,29 @@ html {
     font-weight: 600;
 }
 
+@media (max-width: 427px) {
+    .container-products {
+        grid-template-columns: 1fr;
+        gap: 2rem; 
+    }
+
+    .card-product {
+        padding: 1.5rem 2rem; 
+    }
+
+    .content-card-product h3 {
+        font-size: 1.8rem; 
+    }
+
+    .content-card-product .price {
+        font-size: 1.5rem; 
+    }
+
+    .add-cart i {
+        font-size: 1.3rem; 
+    }
+}
+
 /* Blogs */
 .container-blogs {
     display: grid;
